@@ -22,3 +22,8 @@ function! XTermPasteBegin()
   set paste
   return ""
 endfunction
+
+ """"bundle stuff
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
