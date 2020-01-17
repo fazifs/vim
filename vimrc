@@ -2,6 +2,7 @@ filetype on
 syntax on
 set guifont=Menlo\ Regular:h18
 set colorcolumn=90
+colo desert  
 set number
 let mapleader=" "
 map <leader>s :source ~/.vimrc<CR>
